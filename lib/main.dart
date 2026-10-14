@@ -157,7 +157,7 @@ class _EcoVoltHomeState extends State<EcoVoltHome> {
           height: 48,
           width: 48,
           decoration: BoxDecoration(
-            color: green.withOpacity(0.15),
+            color: green.withAlpha((255 * 0.15).round()),
             borderRadius: BorderRadius.circular(15),
           ),
           child: Icon(Icons.bolt, color: green, size: 30),
@@ -259,7 +259,7 @@ class _EcoVoltHomeState extends State<EcoVoltHome> {
               child: Icon(
                 Icons.bolt,
                 size: 85,
-                color: Colors.white.withOpacity(0.09),
+                color: Colors.white.withAlpha((255 * 0.09).round()),
               ),
             ),
             Column(
@@ -440,7 +440,7 @@ class _EcoVoltHomeState extends State<EcoVoltHome> {
               height: 44,
               width: 44,
               decoration: BoxDecoration(
-                color: color.withOpacity(0.14),
+                color: color.withAlpha((255 * 0.14).round()),
                 borderRadius: BorderRadius.circular(13),
               ),
               child: Icon(icon, color: color),
@@ -547,12 +547,12 @@ class _EcoVoltHomeState extends State<EcoVoltHome> {
                               height: 72,
                               width: 72,
                               decoration: BoxDecoration(
-                                color: green.withOpacity(0.18),
+                                color: green.withAlpha((255 * 0.18).round()),
                                 borderRadius: BorderRadius.circular(20),
                                 border: Border.all(color: green, width: 2),
                                 boxShadow: [
                                   BoxShadow(
-                                    color: green.withOpacity(0.15),
+                                    color: green.withAlpha((255 * 0.15).round()),
                                     blurRadius: 16,
                                   ),
                                 ],
@@ -602,7 +602,7 @@ class _EcoVoltHomeState extends State<EcoVoltHome> {
       decoration: BoxDecoration(
         color: const Color(0xFF202A23),
         borderRadius: BorderRadius.circular(22),
-        border: Border.all(color: green.withOpacity(0.5)),
+        border: Border.all(color: green.withAlpha((255 * 0.5).round())),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -627,7 +627,7 @@ class _EcoVoltHomeState extends State<EcoVoltHome> {
                   vertical: 6,
                 ),
                 decoration: BoxDecoration(
-                  color: green.withOpacity(0.13),
+                  color: green.withAlpha((255 * 0.13).round()),
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Text(
@@ -699,7 +699,7 @@ class _EcoVoltHomeState extends State<EcoVoltHome> {
               label: const Text('Reset Pengujian'),
               style: OutlinedButton.styleFrom(
                 foregroundColor: green,
-                side: BorderSide(color: green.withOpacity(0.6)),
+                  side: BorderSide(color: green.withAlpha((255 * 0.6).round())),
                 padding: const EdgeInsets.symmetric(vertical: 13),
               ),
             ),
@@ -722,7 +722,7 @@ class _EcoVoltHomeState extends State<EcoVoltHome> {
           width: 38,
           height: 38,
           decoration: BoxDecoration(
-            color: green.withOpacity(0.12),
+            color: green.withAlpha((255 * 0.12).round()),
             borderRadius: BorderRadius.circular(12),
           ),
           child: Icon(icon, color: green, size: 20),
